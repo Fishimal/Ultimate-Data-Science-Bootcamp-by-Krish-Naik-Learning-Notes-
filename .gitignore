@@ -1,17 +1,20 @@
+# Python versioning
+.python-version
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
 # Python execution files
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual Environments (very important to ignore!)
+# Virtual Environments
 venv/
+.venv/
 env/
 .env/
+bin/
+lib/
 
-# Data files (Optional: if they are >100MB)
-*.csv
-*.xlsx
+# OS specific
+.DS_Store
