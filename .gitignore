@@ -18,3 +18,7 @@ lib/
 
 # OS specific
 .DS_Store
+
+# Data files (Optional: if they are >100MB)
+*.csv
+*.xlsx
